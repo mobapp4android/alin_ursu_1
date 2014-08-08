@@ -1,0 +1,101 @@
+body 
+{
+	margin: 40; 
+	padding: 20 ; 
+	font-family: Verdana, sans-serif ; 
+	background-color:#9fcaea; 
+}
+#tot{
+	margin : 0 auto; 
+	padding: 20px 0 0 0; 
+	position: relative; 
+	background-color: #f2c4c4; 
+	width: 90%;
+}
+#header 
+{ 
+	margin: 0 auto; 
+	width: 90%; 
+	height: 250px; 
+	background: url('http://goo.gl/ovxbHs') no-repeat;
+	background-color: white; 
+	background-size : 100% 100%; 
+}
+.titlu_cap
+{
+	font-family: "Times New Roman" , sans-serif; 
+	font-size: 20px; 
+	color: white; 
+	top: 220px; 
+	left: 10px; 
+	position: relative; 
+}
+
+#continut {
+background-color: #c693bd;
+}
+#continut p
+{ 
+text-align: justify; 
+margin-left: 2%;
+}
+p::first-letter 
+{
+color: red; 
+font-size: xx-large; 
+font-family: "Arial Black", cursive; 
+}
+
+#footer 
+{
+	 
+	margin: 10 auto; 
+	height: 60px; 
+	background-color: #f2c4c4; 
+	background-size : 100% 100%;
+	
+	
+}
+
+#footer span 
+{
+	padding: 20px; 
+	position: relative; 
+	font-family: "Tahoma", sans-serif; 
+	font-weight: bold; 
+	font-size: large; 
+	color: red; 
+}
+
+#menu 
+{
+	margin: 0 30px; 
+	height: 40px; 
+	padding: 20px 0; 
+} 
+#menu ul 
+{
+height: 29px ; 
+margin: 0; 
+padding: 7px; 
+}
+#menu ul li  
+{ 
+	list-style: none; 
+	display: inline; 
+} 
+
+#menu ul li a:link,  #menu ul li a:active, #menu ul li a:visitetd 
+{
+	color: blue; 
+	font-weight:bold; 
+	text-decoration: none; 
+	font-family: "lucinda grande", sans-serif; 
+	padding: 30px 14px 30px 14px; 
+
+}
+#menu ul li a:hover 
+{
+background-color:red ;
+}
+
